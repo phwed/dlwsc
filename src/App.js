@@ -9,7 +9,6 @@ import {
   Switch,
   useColorMode,
   VStack,
-  Code,
 } from "native-base";
 
 function App() {
