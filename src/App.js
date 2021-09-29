@@ -31,7 +31,7 @@ function App() {
         />
         <Heading size="lg">Welcome to NativeBase</Heading>
         <Text>
-          Edit <Code>src/App.js</Code> and save to reload.
+         my live application on varcel
         </Text>
         <Link href="https://docs.nativebase.io" isExternal>
           <Text color="primary.500" underline fontSize={"xl"}>

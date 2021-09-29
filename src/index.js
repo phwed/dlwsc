@@ -1,14 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { NativeBaseProvider, extendTheme } from "native-base";
+import { NativeBaseProvider } from "native-base";
 import reportWebVitals from "./reportWebVitals";
-
-const theme = extendTheme({
-  config: {
-    initialColorMode: "dark",
-  },
-});
+import theme from "./theme.js";
 
 ReactDOM.render(
   <React.StrictMode>
